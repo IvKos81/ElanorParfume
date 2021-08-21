@@ -1,0 +1,56 @@
+@import url('header.css');
+@import url('footer.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+
+body {
+    max-width: 100vw;
+    max-height: auto;
+    overflow-x: hidden;
+ }
+
+ .container {
+  margin: 0 auto;
+  padding: 5px;
+}
+
+  /* Delivery */
+
+  .delivery {
+    width: 100vw;
+    height: auto;
+    background: url('../picture/delivery_background.jpg') repeat-y center/cover;
+  }
+
+  .delivery__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .delivery_block {
+    background: #ffffff;
+    opacity: 0.95;
+    padding: 10px 30px;
+    margin: 10px 0;
+  }
+
+  .delivery_block_header {
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 2rem;
+    color: #d8321d;
+
+  }
+  .delivery_block_text {
+    text-decoration: none;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
+    color: #2b2121;
+    }
+
