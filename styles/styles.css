@@ -7,9 +7,8 @@
 
 
 body {
-    max-width: 100vw;
-    max-height: auto;
-    overflow-x: hidden;
+    max-width: 1440px;
+    height: auto;
  }
 
 .container {
@@ -20,7 +19,7 @@ body {
 /* ПРОМО */
 
 .promo {
-    width: 100vw;
+    width: 1440px;
     height: 600px;
     background: url('../picture/promo.jpg') no-repeat center/cover;
 }
@@ -70,7 +69,7 @@ body {
 /* КАТАЛОГ ИЗБРАННОЕ */
 
 .feature_catalogue {
-    width: 100vw;
+    width: 1440px;
     height: 750px;
     background: url('../picture/feature_catalogue.jpg') no-repeat center/cover;
 }
@@ -126,7 +125,7 @@ body {
 /* КАТАЛОГ */
 
 .catalogue {
-    width: 100vw;
+    width: 1440px;
     height: 750px;
     background: url('../picture/catalogue.jpg') no-repeat center/cover;
 }
@@ -151,7 +150,7 @@ body {
 }
 
 .catalogue_list {
-    max-width: 90vw;
+    max-width: 900px;
     position: relative;
     margin: auto;
 }
@@ -372,7 +371,7 @@ body {
 
 /* О НАС */
 .about {
-    width: 100vw;
+    width: 1440px;
     height: 500px;
     background: url('../picture/about.jpg') no-repeat center/cover;
 }
@@ -408,7 +407,7 @@ body {
 
 /* БЛОГ */
 .blog {
-    width: 100vw;
+    width: 1440px;
     height: 700px;
     background: url('../picture/blog.jpg') no-repeat center/cover;
 }
