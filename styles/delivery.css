@@ -7,11 +7,14 @@
 
 
 body {
-    max-width: 1440px;
-    max-height: auto;
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
  }
 
  .container {
+  width: 1300px;
+  height: auto;
   margin: 0 auto;
   padding: 5px;
 }
@@ -19,7 +22,7 @@ body {
   /* Delivery */
 
   .delivery {
-    width: 1440px;
+    width: 100%;
     height: auto;
     background: url('../picture/delivery_background.jpg') repeat-y center/cover;
   }
