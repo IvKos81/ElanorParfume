@@ -1,3 +1,5 @@
+@media (min-width: 993px) {
+
 /* Футер */
 
 footer {
@@ -81,4 +83,6 @@ footer {
 .footer_delivery_link a:hover {
   display: block;
   transform: scale(1.1) translateX(10px);
+}
+
 }

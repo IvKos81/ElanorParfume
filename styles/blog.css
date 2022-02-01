@@ -1,10 +1,218 @@
-@import url('header.css');
-@import url('footer.css');
+@import url('./header_tablet.css');
+@import url('./header.css');
+@import url('./footer_tablet.css');
+@import url('./footer.css');
 
 @import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
+@media (max-width: 992px) {
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+ }
+
+ .container {
+  width: 1300px;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+  /* Blog */
+
+  .blog {
+    width: 100%;
+    height: auto;
+    background: url('../picture/blog/blog_background.jpg') repeat-y center/cover;
+  }
+
+  .blog__container {
+    width: 95%;
+    margin: 0 auto;
+    padding: 5px;
+
+  }
+
+  .blog_promo {
+    background: #ffffff;
+    opacity: 0.95;
+    padding: 10px 30px;
+    margin: 10px 0;
+  }
+
+  .blog_promo_header {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 3rem;
+    color: #d8321d;
+
+  }
+  .blog_promo_text {
+    text-decoration: none;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    color: #d8321d;
+  }
+
+  /* BLOG CARD  */
+
+  .blog_card {
+    background: #ffffff;
+    opacity: 0.95;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .blog_card_title {
+    font-family: 'Rye', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #d8321d;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .blog_card_picture {
+    float: left;
+    margin-right: 15px;
+    opacity: 1;
+  }
+
+  .blog_card_date {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    color: #2b2121;
+    text-align: left;
+    font-style: italic;
+  }
+
+  .blog_card_text_main {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: #2b2121;
+    text-align: justify;
+  }
+
+  .blog_card_text_second {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: #2b2121;
+    text-align: right;
+    margin-right: 150px;
+  }
+
+}
+
+@media (min-width: 993px) {
+  body {
+    width: 100%;
+    height: auto;
+    overflow-x: hidden;
+ }
+
+ .container {
+  width: 1300px;
+  height: auto;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+  /* Blog */
+
+  .blog {
+    width: 100%;
+    height: auto;
+    background: url('../picture/blog/blog_background.jpg') repeat-y center/cover;
+  }
+
+  .blog__container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 5px;
+  }
+
+  .blog_promo {
+    background: #ffffff;
+    opacity: 0.95;
+    padding: 10px 30px;
+    margin: 10px 0;
+  }
+
+  .blog_promo_header {
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 3rem;
+    color: #d8321d;
+
+  }
+  .blog_promo_text {
+    text-decoration: none;
+    text-align: justify;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.5rem;
+    color: #d8321d;
+  }
+
+  /* BLOG CARD  */
+
+  .blog_card {
+    background: #ffffff;
+    opacity: 0.95;
+    padding: 20px 40px;
+    margin-bottom: 10px;
+  }
+
+  .blog_card_title {
+    font-family: 'Rye', cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #d8321d;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .blog_card_picture {
+    float: left;
+    margin-right: 15px;
+    opacity: 1;
+  }
+
+  .blog_card_date {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9rem;
+    color: #2b2121;
+    text-align: left;
+    font-style: italic;
+  }
+
+  .blog_card_text_main {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.2rem;
+    color: #2b2121;
+    text-align: justify;
+  }
+
+  .blog_card_text_second {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    color: #2b2121;
+    text-align: right;
+    margin-right: 150px;
+  }
+
+}
 
 body {
     width: 100%;

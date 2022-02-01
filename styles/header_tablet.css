@@ -1,0 +1,115 @@
+@media (max-width: 992px) {
+
+
+.header {
+    width: 100%;
+    background: linear-gradient(-45deg, #ffffff, #8d8d8d);
+  }
+
+    .container {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+    padding: 5px;
+  }
+  
+  .header_wrapper {
+    display: flex; 
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1,2;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .header_logo_link {
+    margin-top: 30px;
+  }
+  
+  .navigation_menu_list {
+    margin-top: 50px;
+  }
+  
+  .menu_list {
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style: none;
+    text-decoration: none;
+    justify-content: space-between;
+    align-content: center;
+  }
+  
+  .navigation_menu_point {
+    margin-right: 10px;
+  }
+  
+  .navigation_menu_point:last-child {
+    position: relative;
+  }
+  
+  .user_menu_point {
+    margin-right: 50px;
+  }
+  
+  .menu_point {
+    display: block;
+    width: auto;
+    height: 40px;
+    padding: 5px;
+    cursor: pointer;    
+  }
+  
+  .navigation_menu_link {
+    display:block;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 2rem;
+    font-weight: 800;
+    color: #d8321d;
+    transition: 0.5s ease-in;
+  }
+  
+  .navigation_menu_link:hover {
+    transform: scale(1.2);
+  }
+  
+  /* ВЫПАДАЮЩЕЕ МЕНЮ */
+  
+  .navigation_menu_submenu {
+    position: absolute;
+    top: 60px;
+    left: -50px;
+    width: 270px;
+    padding:20px;
+    transform: scaleY(0);
+    transform-origin: 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    color: #d8321d;
+    opacity: 0.8;
+    border-left: 2px solid #d8321d;
+    border-right: 2px solid #d8321d;
+    z-index: 10;
+  }
+  
+  .navigation_menu_point:hover .navigation_menu_submenu {
+    transform: scaleY(1);
+    transition: 1s ease-in-out;
+  }
+  
+  .submenu_link {
+    display: block;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 1.5rem;
+    color: #d8321d;
+  }
+  
+  .submenu_link:hover {
+    transform: scale(1.1);
+  }
+
+}
+  

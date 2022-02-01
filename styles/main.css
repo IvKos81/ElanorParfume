@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+
+@import url('./header_tablet.css');
+@import url('./header.css');
+@import url('./frontpage_desktop.css');
+@import url('./frontpage_tablet.css');
+@import url('./footer_tablet.css');
+@import url('./footer.css');
