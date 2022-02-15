@@ -7,7 +7,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
 
-
 @media (max-width: 992px) {
   body {
     width: 100%;
@@ -121,11 +120,12 @@
  }
 
  .container {
-  width: 1300px;
+  width: 95%;
   height: auto;
   margin: 0 auto;
   padding: 5px;
 }
+
 
   /* Catalogue */
 
@@ -136,7 +136,7 @@
   }
 
   .catalogue__container {
-    width: 1200px;
+    width: 95%;
     margin: 0 auto;
     padding: 5px;
   }
